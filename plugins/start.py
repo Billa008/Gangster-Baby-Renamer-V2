@@ -51,7 +51,8 @@ async def start(client, message):
                                 caption=txt,
                                 reply_markup=InlineKeyboardMarkup(
                                       [[InlineKeyboardButton("🎈 Update Channel 🎈", url="https://t.me/Doremon_Botz")],
-                                      [InlineKeyboardButton("🔰 Subscribe us 🔰", url="https://t.me/Doremon_Botz")],
+                                      [InlineKeyboardButton("🔰 Subscribe us 🔰", url="https://t.me/Doremon_Botz")]
+				      ],[
                                       [InlineKeyboardButton("🧧 Support Group 🧧", url='https://t.me/+5xScmjemXiI4Yjll')],
                                       [InlineKeyboardButton("⚡ Movie Channel ⚡", url='https://t.me/+c4RyjmO29jNlM2Vl')]
 				      ]))
@@ -64,7 +65,8 @@ async def start(client, message):
                                          caption=txt,
                                          reply_markup=InlineKeyboardMarkup(
                                              [[InlineKeyboardButton("🎈 Update Channel 🎈", url="https://t.me/Doremon_Botz")],
-                                             [InlineKeyboardButton("🔰 Subscribe us 🔰", url="https://t.me/Doremon_Botz")],
+                                             [InlineKeyboardButton("🔰 Subscribe us 🔰", url="https://t.me/Doremon_Botz")]
+					     ],[
                                              [InlineKeyboardButton("🧧 Support Group 🧧", url='https://t.me/+5xScmjemXiI4Yjll')],
                                              [InlineKeyboardButton("⚡ Movie Channel ⚡", url='https://t.me/+c4RyjmO29jNlM2Vl')]
                                              ]))
@@ -83,7 +85,8 @@ async def start(client, message):
 	""", reply_to_message_id=message.id,
                                      reply_markup=InlineKeyboardMarkup(
                                          [[InlineKeyboardButton("🎈 Update Channel 🎈", url="https://t.me/Doremon_Botz")],
-                                          [InlineKeyboardButton("🔰 Subscribe us 🔰", url="https://t.me/Doremon_Botz")],
+                                          [InlineKeyboardButton("🔰 Subscribe us 🔰", url="https://t.me/Doremon_Botz")]
+					  ],[
                                           [InlineKeyboardButton("🧧 Support Group 🧧", url='https://t.me/+5xScmjemXiI4Yjll')],
                                           [InlineKeyboardButton("⚡ Movie Channel ⚡", url='https://t.me/+c4RyjmO29jNlM2Vl')]
                                           ]))
@@ -176,7 +179,7 @@ async def send_doc(client, message):
                     total_rename(int(botid), prrename)
                     total_size(int(botid), prsize, file.file_size)
                 else:
-                    uploadlimit(message.from_user.id, 1288490188)
+                    uploadlimit(message.from_user.id, 1217549670)
                     usertype(message.from_user.id, "Free")
 
                     await message.reply_text(f'Your Plan Expired On {buy_date}', quote=True)
@@ -188,7 +191,7 @@ async def send_doc(client, message):
             if buy_date:
                 pre_check = check_expi(buy_date)
                 if pre_check == False:
-                    uploadlimit(message.from_user.id, 1288490188)
+                    uploadlimit(message.from_user.id, 1217549670)
                     usertype(message.from_user.id, "Free")
 
             filesize = humanize.naturalsize(file.file_size)
