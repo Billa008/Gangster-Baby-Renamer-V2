@@ -55,7 +55,6 @@ async def start(client, message):
                                       [InlineKeyboardButton("🧧 Support Group 🧧", url='https://t.me/+5xScmjemXiI4Yjll'),
                                       [InlineKeyboardButton("⚡ Movie Channel ⚡", url='https://t.me/+c4RyjmO29jNlM2Vl')]
 				      ]))
-
         return
     if id:
         if old == True:
@@ -68,8 +67,7 @@ async def start(client, message):
                                              [InlineKeyboardButton("🔰 Subscribe us 🔰", url="https://t.me/Doremon_Botz")],
                                              [InlineKeyboardButton("🧧 Support Group 🧧", url='https://t.me/+5xScmjemXiI4Yjll'),
                                              [InlineKeyboardButton("⚡ Movie Channel ⚡", url='https://t.me/+c4RyjmO29jNlM2Vl')]
-                                             ]))
-
+                                          ]))
             except:
                 return
         else:
