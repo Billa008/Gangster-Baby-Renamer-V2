@@ -50,12 +50,13 @@ async def start(client, message):
         await message.reply_photo(photo=LAZY_PIC,
                                 caption=txt,
                                 reply_markup=InlineKeyboardMarkup(
-                                      [[InlineKeyboardButton("🎈 Update Channel 🎈", url="https://t.me/Doremon_Botz")],
+                                      [InlineKeyboardButton("🎈 Update Channel 🎈", url="https://t.me/Doremon_Botz")],
                                       [InlineKeyboardButton("🔰 Subscribe us 🔰", url="https://t.me/Doremon_Botz")
 				      ],[
                                       [InlineKeyboardButton("🧧 Support Group 🧧", url='https://t.me/+5xScmjemXiI4Yjll')],
                                       [InlineKeyboardButton("⚡ Movie Channel ⚡", url='https://t.me/+c4RyjmO29jNlM2Vl')]
 				      ]))
+
         return
     if id:
         if old == True:
@@ -64,12 +65,13 @@ async def start(client, message):
                 await message.reply_photo(photo=LAZY_PIC,
                                          caption=txt,
                                          reply_markup=InlineKeyboardMarkup(
-                                             [[InlineKeyboardButton("🎈 Update Channel 🎈", url="https://t.me/Doremon_Botz")],
+                                             [InlineKeyboardButton("🎈 Update Channel 🎈", url="https://t.me/Doremon_Botz")],
                                              [InlineKeyboardButton("🔰 Subscribe us 🔰", url="https://t.me/Doremon_Botz")
 					     ],[
                                              [InlineKeyboardButton("🧧 Support Group 🧧", url='https://t.me/+5xScmjemXiI4Yjll')],
                                              [InlineKeyboardButton("⚡ Movie Channel ⚡", url='https://t.me/+c4RyjmO29jNlM2Vl')]
                                              ]))
+
             except:
                 return
         else:
@@ -84,7 +86,7 @@ async def start(client, message):
 	**Document Or Video** and enter new filename to rename it__
 	""", reply_to_message_id=message.id,
                                      reply_markup=InlineKeyboardMarkup(
-                                          [[InlineKeyboardButton("🎈 Update Channel 🎈", url="https://t.me/Doremon_Botz")],
+                                          [InlineKeyboardButton("🎈 Update Channel 🎈", url="https://t.me/Doremon_Botz")],
                                           [InlineKeyboardButton("🔰 Subscribe us 🔰", url="https://t.me/Doremon_Botz")
 					  ],[
                                           [InlineKeyboardButton("🧧 Support Group 🧧", url='https://t.me/+5xScmjemXiI4Yjll')],
