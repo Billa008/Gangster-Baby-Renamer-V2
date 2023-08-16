@@ -30,11 +30,11 @@ LAZY_PIC = os.environ.get("LAZY_PIC", "")
 currentTime = datetime.datetime.now()
 
 if currentTime.hour < 12:
-    wish = "❤️ Good morning sweetheart ❤️"
+    wish = "🤖 Good morning Dude 🤖"
 elif 12 <= currentTime.hour < 12:
-    wish = '🤍 Good afternoon my Love 🤍'
+    wish = '🤖 Good afternoon Dude 🤖'
 else:
-    wish = '🦋 Good evening baby 🦋'
+    wish = '🤖 Good evening Dude 🤖'
 
 # -------------------------------
 
@@ -46,15 +46,16 @@ async def start(client, message):
         id = message.text.split(' ')[1]
     except:
         txt=f"""Hello {wish} {message.from_user.first_name } \n\n
-	I am file renamer bot, Please sent any telegram**Document Or Video** and enter new filename to rename it"""
+	I'ᴍ A Sɪᴍᴘʟᴇ Fɪʟᴇ  Rᴇɴᴀᴍᴇ+Fɪʟᴇ Tᴏ Vɪᴅᴇᴏ Cᴏɴᴠᴇɴᴛᴏʀ Bᴏᴛ Wɪᴛʜ Tʜᴜᴍʙɴᴀɪʟ & Cᴜsᴛᴏᴍ Cᴀᴘᴛɪᴏɴ Sᴜᴘᴘᴏʀᴛ 🚀/nPʟᴇᴀsᴇ sᴇɴᴛ ᴀɴʏ ᴛᴇʟᴇɢʀᴀᴍ**Dᴏᴄᴜᴍᴇɴᴛ Oʀ Vɪᴅᴇᴏ** ᴀɴᴅ ᴇɴᴛᴇʀ ɴᴇᴡ ғɪʟᴇɴᴀᴍᴇ ᴛᴏ ʀᴇɴᴀᴍᴇ ɪᴛ"""
         await message.reply_photo(photo=LAZY_PIC,
                                 caption=txt,
                                 reply_markup=InlineKeyboardMarkup(
-                                     [[InlineKeyboardButton("🎈 Update Channel 🎈", url="https://t.me/Doremon_Botz"),
-                                      InlineKeyboardButton("🔰 Subscribe us 🔰", url="https://t.me/Doremon_Botz")],
-                                      [InlineKeyboardButton("🧧 Support Group 🧧", url='https://t.me/+5xScmjemXiI4Yjll'),
-                                      InlineKeyboardButton("⚡ Movie Channel ⚡", url='https://t.me/+c4RyjmO29jNlM2Vl')]
-				      ]))
+                                     [[InlineKeyboardButton("🤖 Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ 🤖", url="https://t.me/Doremon_Botz"),
+                                      InlineKeyboardButton("🔰 Sᴜʙsᴄʀɪʙᴇ ᴜs 🔰", url="https://t.me/Doremon_Botz")],
+                                      [InlineKeyboardButton("🧧 Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ 🧧", url='https://t.me/+5xScmjemXiI4Yjll'),
+                                      InlineKeyboardButton("⚡ Mᴏᴠɪᴇ Cʜᴀɴɴᴇʟ ⚡", url='https://t.me/+c4RyjmO29jNlM2Vl')]
+				      [InlineKeyboardButton("❌ Cʟᴏsᴇ", callback_data="cancel")]
+                                      ]))
         return
     if id:
         if old == True:
@@ -63,10 +64,11 @@ async def start(client, message):
                 await message.reply_photo(photo=LAZY_PIC,
                                          caption=txt,
                                          reply_markup=InlineKeyboardMarkup(
-				            [[InlineKeyboardButton("🎈 Update Channel 🎈", url="https://t.me/Doremon_Botz"),
-                                             InlineKeyboardButton("🔰 Subscribe us 🔰", url="https://t.me/Doremon_Botz")],
-                                             [InlineKeyboardButton("🧧 Support Group 🧧", url='https://t.me/+5xScmjemXiI4Yjll'),
-                                             InlineKeyboardButton("⚡ Movie Channel ⚡", url='https://t.me/+c4RyjmO29jNlM2Vl')]
+				            [[InlineKeyboardButton("🤖 Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ 🤖", url="https://t.me/Doremon_Botz"),
+                                             InlineKeyboardButton("🔰 Sᴜʙsᴄʀɪʙᴇ ᴜs 🔰", url="https://t.me/Doremon_Botz")],
+                                             [InlineKeyboardButton("🧧 Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ 🧧", url='https://t.me/+5xScmjemXiI4Yjll'),
+                                             InlineKeyboardButton("⚡ Mᴏᴠɪᴇ Cʜᴀɴɴᴇʟ ⚡", url='https://t.me/+c4RyjmO29jNlM2Vl')],
+                                             [InlineKeyboardButton("❌ Cʟᴏsᴇ", callback_data="cancel")]
                                           ]))
             except:
                 return
@@ -82,10 +84,11 @@ async def start(client, message):
 	**Document Or Video** and enter new filename to rename it__
 	""", reply_to_message_id=message.id,
                                      reply_markup=InlineKeyboardMarkup(
-                                         [[InlineKeyboardButton("🎈 Update Channel 🎈", url="https://t.me/Doremon_Botz"),
-                                          InlineKeyboardButton("🔰 Subscribe us 🔰", url="https://t.me/Doremon_Botz")],
-                                          [InlineKeyboardButton("🧧 Support Group 🧧", url='https://t.me/+5xScmjemXiI4Yjll'),
-                                          InlineKeyboardButton("⚡ Movie Channel ⚡", url='https://t.me/+c4RyjmO29jNlM2Vl')]
+                                         [[InlineKeyboardButton("🤖 Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ 🤖", url="https://t.me/Doremon_Botz"),
+                                          InlineKeyboardButton("🔰 Sᴜʙsᴄʀɪʙᴇ ᴜs 🔰", url="https://t.me/Doremon_Botz")],
+                                          [InlineKeyboardButton("🧧 Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ 🧧", url='https://t.me/+5xScmjemXiI4Yjll'),
+                                          InlineKeyboardButton("⚡ Mᴏᴠɪᴇ Cʜᴀɴɴᴇʟ ⚡", url='https://t.me/+c4RyjmO29jNlM2Vl')],
+                                          [InlineKeyboardButton("❌ Cʟᴏsᴇ", callback_data="cancel")]
                                           ]))
     
 
