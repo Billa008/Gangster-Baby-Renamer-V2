@@ -52,8 +52,8 @@ async def start(client, message):
                                 reply_markup=InlineKeyboardMarkup(
                                      [[InlineKeyboardButton("🤖 Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ 🤖", url="https://t.me/Doremon_Botz"),
                                       InlineKeyboardButton("🔰 Sᴜʙsᴄʀɪʙᴇ ᴜs 🔰", url="https://t.me/Doremon_Botz")],
-                                      [InlineKeyboardButton("🧧 Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ 🧧", url='https://t.me/+5xScmjemXiI4Yjll'),
-                                      InlineKeyboardButton("⚡ Mᴏᴠɪᴇ Cʜᴀɴɴᴇʟ ⚡", url='https://t.me/+c4RyjmO29jNlM2Vl')]
+                                      [InlineKeyboardButton("🧧Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ🧧", url='https://t.me/+5xScmjemXiI4Yjll'),
+                                      InlineKeyboardButton("⚡Mᴏᴠɪᴇ Cʜᴀɴɴᴇʟ⚡", url='https://t.me/+c4RyjmO29jNlM2Vl')]
 				      [InlineKeyboardButton("❌ Cʟᴏsᴇ", callback_data="cancel")]
                                       ]))
         return
@@ -66,8 +66,8 @@ async def start(client, message):
                                          reply_markup=InlineKeyboardMarkup(
 				            [[InlineKeyboardButton("🤖 Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ 🤖", url="https://t.me/Doremon_Botz"),
                                              InlineKeyboardButton("🔰 Sᴜʙsᴄʀɪʙᴇ ᴜs 🔰", url="https://t.me/Doremon_Botz")],
-                                             [InlineKeyboardButton("🧧 Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ 🧧", url='https://t.me/+5xScmjemXiI4Yjll'),
-                                             InlineKeyboardButton("⚡ Mᴏᴠɪᴇ Cʜᴀɴɴᴇʟ ⚡", url='https://t.me/+c4RyjmO29jNlM2Vl')],
+                                             [InlineKeyboardButton("🧧Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ🧧", url='https://t.me/+5xScmjemXiI4Yjll'),
+                                             InlineKeyboardButton("⚡Mᴏᴠɪᴇ Cʜᴀɴɴᴇʟ⚡", url='https://t.me/+c4RyjmO29jNlM2Vl')],
                                              [InlineKeyboardButton("❌ Cʟᴏsᴇ", callback_data="cancel")]
                                           ]))
             except:
@@ -86,8 +86,8 @@ async def start(client, message):
                                      reply_markup=InlineKeyboardMarkup(
                                          [[InlineKeyboardButton("🤖 Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ 🤖", url="https://t.me/Doremon_Botz"),
                                           InlineKeyboardButton("🔰 Sᴜʙsᴄʀɪʙᴇ ᴜs 🔰", url="https://t.me/Doremon_Botz")],
-                                          [InlineKeyboardButton("🧧 Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ 🧧", url='https://t.me/+5xScmjemXiI4Yjll'),
-                                          InlineKeyboardButton("⚡ Mᴏᴠɪᴇ Cʜᴀɴɴᴇʟ ⚡", url='https://t.me/+c4RyjmO29jNlM2Vl')],
+                                          [InlineKeyboardButton("🧧Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ🧧", url='https://t.me/+5xScmjemXiI4Yjll'),
+                                          InlineKeyboardButton("⚡Mᴏᴠɪᴇ Cʜᴀɴɴᴇʟ ⚡", url='https://t.me/+c4RyjmO29jNlM2Vl')],
                                           [InlineKeyboardButton("❌ Cʟᴏsᴇ", callback_data="cancel")]
                                           ]))
     
